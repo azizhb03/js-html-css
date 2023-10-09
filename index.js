@@ -56,3 +56,8 @@ const remove = (id) => {
   const element = document.getElementById(id);
   element.remove();
 };
+
+
+function like (id) {
+    document.getElementById(id).style = "color:red"
+}
